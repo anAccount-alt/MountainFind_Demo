@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MountainFind Options</title>
+        <script src="jquery-3.1.0.min.js"></script>
+        <script src="options.js"></script>
+    </head>
+    <body>
+        <h1>Select your options below</h1>
+        <h2>Collection Limit: <input id="limit" type="text"></h2>
+        <form action="/action_page.php">
+            <label for="tenant">Choose your tenant:</label>
+            <select id="tenant" name="tenant">
+              <option value="FFIO">FFIO</option>
+            </select>
+
+
+          <form action="/action_page.php">
+            <label for="inbox">Select your default inbox:</label>
+            <select id="inbox" name="inbox">
+              <option value="HDA">Helpdesk A</option>
+              <option value="HDB">Helpdesk B</option>
+            </select>
+
+
+          <form action="/action_page.php">
+            <label for="cars">Select your default inbox:</label>
+            <select id="inox" name="inbox">
+              <option value="HDA">Helpdesk A</option>
+              <option value="HDB">Helpdesk B</option>
+            </select>
+          </form>
+
+        <input id="saveLimit" type="submit" value="Update Options"/>
+        <input id="resetTotal" type="submit" value="Cancel Changes" >
+        
+    </body>
+</html>
