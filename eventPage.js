@@ -1,6 +1,6 @@
 var menuItem = {
     "id": "spendMoney",
-    "title": "Use MountainFind",
+    "title": "Search in Mountain",
     "contexts": ["selection"]
 };
 
